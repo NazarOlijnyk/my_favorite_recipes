@@ -10,7 +10,7 @@ const Root = () => {
   // const [allRecipes, setAllRecipes] = useState<Map<string, Recipe>>(new Map());
   const [categories, setCategories] = useState<Categories>([]);
   const [countries, setCountries] = useState<Countries>([]);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const loadData = async () => {
