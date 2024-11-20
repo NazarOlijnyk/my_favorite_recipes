@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "deploy": "npm run build && mv dist docs"
   },
+  "homepage": "https://nazarolijnyk.github.io/my_favorite_recipes/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
     "react": "^18.3.1",
@@ -30,7 +31,7 @@
     "globals": "^15.11.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.11.0",
-    "vite": "^5.4.10"
-  },
-  "homepage": "https://nazarolijnyk.github.io/my_favorite_recipes/"
+    "vite": "^5.4.10",
+    "vite-plugin-rewrite-all": "^1.0.2"
+  }
 }
